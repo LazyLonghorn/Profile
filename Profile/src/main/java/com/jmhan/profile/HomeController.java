@@ -32,7 +32,7 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		System.out.println("Hello Profile");
-		
+		System.out.println("Hello Front");
 		
 		model.addAttribute("serverTime", formattedDate );
 		
